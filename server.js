@@ -5,10 +5,10 @@ const server = http.createServer((req, res)=>{
     if(req.url === "/dataUser"){
         res.end("No data found")
     }
-    res.end("H")
+    res.end("Hi")
 })
 
-server.listen(7777,()=>{
+server.listen(8000,()=>{
     console.log("Server started");
 });
 
